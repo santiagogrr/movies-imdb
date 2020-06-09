@@ -21,15 +21,18 @@ Data is fetched from [The Movie Database API](https://developers.themoviedb.org/
 To setup the app for development on your local machine, please follow the instructions below:
 
 1. Clone the repo to your machine
-    `git clone https://github.com/santiagogrr/movies-imdb.git`
+
+`git clone https://github.com/santiagogrr/movies-imdb.git`
 
 2. Install necessary packages
-    `npm install`
+
+`npm install`
 
 3. Start the development environment
-    `npm start`
 
-4. Visit [http://localhost:3000]
+`npm start`
+
+4. Visit [http://localhost:3000](http://localhost:3000)
 
 
 

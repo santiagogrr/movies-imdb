@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledActor = styled.div`
+export const StyledActorThumb = styled.div`
   font-family: 'Abel', sans-serif;
   color: #fff;
   background: #1c1c1c;
@@ -9,11 +9,12 @@ export const StyledActor = styled.div`
   text-align: center;
 
   img {
-    display: block;
     width: 100%;
-    height: 200px;
+    height: auto;
+    /* max-height: 350px; */
+    transition: all 0.3s;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 10px;
 
     :hover {
       opacity: 0.8;

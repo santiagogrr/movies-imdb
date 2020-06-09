@@ -17,6 +17,7 @@ export const useHomeFetch = () => {
 		try {
 
 			const { data } = await axios.get(endpoint);
+			console.log(data)
 
 			setState((prev) => ({
 				...prev,

@@ -46,7 +46,7 @@ const Home = () => {
         {!searchTerm &&
           (<Hero 
             image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${state.heroImage.backdrop_path}`}
-            title={state.heroImage.original_title}
+            title={state.heroImage.title}
             text={state.heroImage.overview}
           
           />)
@@ -55,7 +55,7 @@ const Home = () => {
           callback = {searchMovies}
         
         />
-        <Grid header={searchTerm ? 'Search Result' : 'Popular Movies'}>
+        <Grid header={searchTerm ? 'Search Result' : 'Latest Movies'}>
           {state.movies.map((movie) => (
             <MovieThumb
               key={movie.id}

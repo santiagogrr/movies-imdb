@@ -10,7 +10,7 @@ export const StyledLoadMoreBtn = styled.button`
   transition: all 0.3s;
   border-radius: 40px;
   font-family: 'Abel', sans-serif;
-  font-size: 28px;
+  font-size: 26px;
   max-width: 1280px;
   display: block;
   margin: 20px auto;

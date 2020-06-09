@@ -9,6 +9,16 @@ export { default as Actor } from './Actor';
 export { default as MovieInfo } from './MovieInfo';
 export { default as MovieInfoBar } from './MovieInfoBar';
 export { default as Navigation } from './Navigation';
+export { default as NavigationActor } from './NavigationActor';
+
+
+export { default as ActorInfo } from './ActorInfo';
+export { default as ActorCredits } from './ActorCredits';
+export { default as ActorThumb } from './ActorThumb';
+export { default as ActorInfoBar } from './ActorInfoBar';
+
+
+
 
 
 

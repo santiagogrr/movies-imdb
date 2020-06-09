@@ -23,6 +23,9 @@ const MovieInfo = ({ movie }) => {
           <h1>{movie.title}</h1>
           <h3>SYNOPSIS</h3>
           <p>{movie.overview}</p>
+
+          <h3>RELEASE DATE</h3>
+          <p>{new Date(movie.release_date).toDateString()}</p>
         
 
           <div className="rating-director">
